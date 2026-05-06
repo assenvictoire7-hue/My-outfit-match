@@ -26,3 +26,21 @@ html{
     scroll-behavior: smooth;
     ;
 }
+Body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background-color:var(--white);
+    color-var(--text-dark brown);
+    line-height: 1.9;
+    overflow-x: hidden;
+    border: 1px solid var(--text-light);
+
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    color:var(--white);
+    background-color: #c9a84c;
+}
