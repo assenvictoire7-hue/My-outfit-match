@@ -1,18 +1,19 @@
 :root{
-    --color-darkest:#2b1a12;
-    --color-dark:#6b3a22;
-    --color-accent:#c4741a;
-    --color-accent-dark:#9b4f2e;
-    --color-text-body:#3a2a20;
-    --color-text-muted:#5c4033;
-    --color-text-light:#c4a882;
-    --color-text-cream:#f5d9b8;
-    --color-text-cream:#f5d9b8;
-    --color-text-sand:#f0d5be;
-    --color-bg-page:#fdf8f4;
-    --color-bg-white:#ffffff;
-    --color-bg-tint:#fff8f2;
+    --cofee-brown:#2b1a12;
+    --Brown:#6b3a22;
+    --Orange:#c4741a;
+    --Chocolate-brown:#9b4f2e;
+    --Brown:#3a2a20;
+    --Earth-brown:#5c4033;
+    --tan:#c4a882;
+    --cream:#f5d9b8;
+    --cream:#f5d9b8;
+    --sand:#f0d5be;
+    --cream-white:#fdf8f4;
+    --white:#ffffff;
+    --tint:#fff8f2;
 
+ }
     *, *::before, *::after{
         box-sizing: border-box;
         margin:0;
@@ -94,7 +95,7 @@ nav{
 .nav-links a:hover{
     color: var(--color-text-cream);
     border-bottom-color:var(--color-accent);
-    #border-bottom: 2px solid var(--color-accent);
+    #border-bottom;2px solid var(--color-accent);
 
 }
 #into,
@@ -120,6 +121,7 @@ nav{
         pointer-events: none;
 
     }
+     }
     #into h1,
     #intro h1{
         color: var(--color-bg-white);
@@ -273,8 +275,8 @@ footer p{
   #into h1,
   #intro h1 {
     font-size: 32px;
-    max-width: ;}
+    max-width: 2px; 
+}
     }
 }
 }
-</style>
